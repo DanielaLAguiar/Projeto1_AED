@@ -18,6 +18,14 @@ class Avioes {
 public:
     Avioes(string mat, string tp, unsigned int cap);
     bool operator==(Avioes &aviao2);
+    void setVoos(list<Voos> planoDeVoo);
+    list<Voos> getVoos();
+    void adicionarVoo(Voos voo);
+    bool removerVoo(Voos voo);
+    void setServicos(queue<Servicos> servicos);
+    queue<Servicos> getServicos();
+    void adicionarServico(Servicos servico);
+    void terminarServico();
 };
 
 
