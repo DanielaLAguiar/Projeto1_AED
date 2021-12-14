@@ -17,6 +17,7 @@ class Avioes {
     list<Servicos> servicosJaRealizados;
 public:
     Avioes(string mat, string tp, unsigned int cap);
+    bool operator==(Avioes &aviao2);
 };
 
 
