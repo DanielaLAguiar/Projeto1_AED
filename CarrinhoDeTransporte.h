@@ -10,6 +10,7 @@ class CarrinhoDeTransporte {
     list<list<stack<Bagagem>>> carruagens;
 public:
     CarrinhoDeTransporte();
+    void adicionarBagagem();
 };
 
 

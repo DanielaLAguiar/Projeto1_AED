@@ -4,11 +4,11 @@
 using namespace std;
 
 class Passageiros {
-    Voos voo;
     unsigned int nBilhetes;
     bool bagagem;
 public:
-    Passageiros(Voos v, unsigned int n, bool bag);
+    Passageiros(unsigned int n, bool bag);
+    bool getBagagem();
 };
 
 

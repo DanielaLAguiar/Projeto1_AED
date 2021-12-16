@@ -1,4 +1,8 @@
 #include "Passageiros.h"
 
-Passageiros::Passageiros(Voos v, unsigned int n, bool bag):
-voo(v), nBilhetes(n), bagagem(bag) {}
+Passageiros::Passageiros(unsigned int n, bool bag):
+nBilhetes(n), bagagem(bag) {}
+
+bool Passageiros::getBagagem() {
+    return bagagem;
+}
