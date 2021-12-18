@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\danie\OneDrive\Ambiente de Trabalho\Docs\LEIC\AED\CompanhiaAeria"
+CMAKE_SOURCE_DIR = "C:\Users\danie\OneDrive\Ambiente de Trabalho\Projeto1_AED-master"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\danie\OneDrive\Ambiente de Trabalho\Docs\LEIC\AED\CompanhiaAeria\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\danie\OneDrive\Ambiente de Trabalho\Projeto1_AED-master\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\danie\OneDrive\Ambiente de Trabalho\Docs\LEIC\AED\CompanhiaAeria\cmake-build-debug\CMakeFiles" "C:\Users\danie\OneDrive\Ambiente de Trabalho\Docs\LEIC\AED\CompanhiaAeria\cmake-build-debug\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\danie\OneDrive\Ambiente de Trabalho\Projeto1_AED-master\cmake-build-debug\CMakeFiles" "C:\Users\danie\OneDrive\Ambiente de Trabalho\Projeto1_AED-master\cmake-build-debug\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\danie\OneDrive\Ambiente de Trabalho\Docs\LEIC\AED\CompanhiaAeria\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\danie\OneDrive\Ambiente de Trabalho\Projeto1_AED-master\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -128,234 +128,221 @@ CompanhiaAeria/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/build
 .PHONY : CompanhiaAeria/fast
 
-#=============================================================================
-# Target rules for targets named Doxygen
-
-# Build rule for target.
-Doxygen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doxygen
-.PHONY : Doxygen
-
-# fast build rule for target.
-Doxygen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Doxygen.dir\build.make CMakeFiles/Doxygen.dir/build
-.PHONY : Doxygen/fast
-
-Aeroporto.obj: Aeroporto.cpp.obj
-.PHONY : Aeroporto.obj
+codigo/Aeroporto.obj: codigo/Aeroporto.cpp.obj
+.PHONY : codigo/Aeroporto.obj
 
 # target to build an object file
-Aeroporto.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Aeroporto.cpp.obj
-.PHONY : Aeroporto.cpp.obj
+codigo/Aeroporto.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Aeroporto.cpp.obj
+.PHONY : codigo/Aeroporto.cpp.obj
 
-Aeroporto.i: Aeroporto.cpp.i
-.PHONY : Aeroporto.i
+codigo/Aeroporto.i: codigo/Aeroporto.cpp.i
+.PHONY : codigo/Aeroporto.i
 
 # target to preprocess a source file
-Aeroporto.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Aeroporto.cpp.i
-.PHONY : Aeroporto.cpp.i
+codigo/Aeroporto.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Aeroporto.cpp.i
+.PHONY : codigo/Aeroporto.cpp.i
 
-Aeroporto.s: Aeroporto.cpp.s
-.PHONY : Aeroporto.s
+codigo/Aeroporto.s: codigo/Aeroporto.cpp.s
+.PHONY : codigo/Aeroporto.s
 
 # target to generate assembly for a file
-Aeroporto.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Aeroporto.cpp.s
-.PHONY : Aeroporto.cpp.s
+codigo/Aeroporto.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Aeroporto.cpp.s
+.PHONY : codigo/Aeroporto.cpp.s
 
-Avioes.obj: Avioes.cpp.obj
-.PHONY : Avioes.obj
+codigo/Avioes.obj: codigo/Avioes.cpp.obj
+.PHONY : codigo/Avioes.obj
 
 # target to build an object file
-Avioes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Avioes.cpp.obj
-.PHONY : Avioes.cpp.obj
+codigo/Avioes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Avioes.cpp.obj
+.PHONY : codigo/Avioes.cpp.obj
 
-Avioes.i: Avioes.cpp.i
-.PHONY : Avioes.i
+codigo/Avioes.i: codigo/Avioes.cpp.i
+.PHONY : codigo/Avioes.i
 
 # target to preprocess a source file
-Avioes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Avioes.cpp.i
-.PHONY : Avioes.cpp.i
+codigo/Avioes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Avioes.cpp.i
+.PHONY : codigo/Avioes.cpp.i
 
-Avioes.s: Avioes.cpp.s
-.PHONY : Avioes.s
+codigo/Avioes.s: codigo/Avioes.cpp.s
+.PHONY : codigo/Avioes.s
 
 # target to generate assembly for a file
-Avioes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Avioes.cpp.s
-.PHONY : Avioes.cpp.s
+codigo/Avioes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Avioes.cpp.s
+.PHONY : codigo/Avioes.cpp.s
 
-Bagagem.obj: Bagagem.cpp.obj
-.PHONY : Bagagem.obj
+codigo/Bagagem.obj: codigo/Bagagem.cpp.obj
+.PHONY : codigo/Bagagem.obj
 
 # target to build an object file
-Bagagem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Bagagem.cpp.obj
-.PHONY : Bagagem.cpp.obj
+codigo/Bagagem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Bagagem.cpp.obj
+.PHONY : codigo/Bagagem.cpp.obj
 
-Bagagem.i: Bagagem.cpp.i
-.PHONY : Bagagem.i
+codigo/Bagagem.i: codigo/Bagagem.cpp.i
+.PHONY : codigo/Bagagem.i
 
 # target to preprocess a source file
-Bagagem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Bagagem.cpp.i
-.PHONY : Bagagem.cpp.i
+codigo/Bagagem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Bagagem.cpp.i
+.PHONY : codigo/Bagagem.cpp.i
 
-Bagagem.s: Bagagem.cpp.s
-.PHONY : Bagagem.s
+codigo/Bagagem.s: codigo/Bagagem.cpp.s
+.PHONY : codigo/Bagagem.s
 
 # target to generate assembly for a file
-Bagagem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Bagagem.cpp.s
-.PHONY : Bagagem.cpp.s
+codigo/Bagagem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Bagagem.cpp.s
+.PHONY : codigo/Bagagem.cpp.s
 
-CarrinhoDeTransporte.obj: CarrinhoDeTransporte.cpp.obj
-.PHONY : CarrinhoDeTransporte.obj
+codigo/CarrinhoDeTransporte.obj: codigo/CarrinhoDeTransporte.cpp.obj
+.PHONY : codigo/CarrinhoDeTransporte.obj
 
 # target to build an object file
-CarrinhoDeTransporte.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/CarrinhoDeTransporte.cpp.obj
-.PHONY : CarrinhoDeTransporte.cpp.obj
+codigo/CarrinhoDeTransporte.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/CarrinhoDeTransporte.cpp.obj
+.PHONY : codigo/CarrinhoDeTransporte.cpp.obj
 
-CarrinhoDeTransporte.i: CarrinhoDeTransporte.cpp.i
-.PHONY : CarrinhoDeTransporte.i
+codigo/CarrinhoDeTransporte.i: codigo/CarrinhoDeTransporte.cpp.i
+.PHONY : codigo/CarrinhoDeTransporte.i
 
 # target to preprocess a source file
-CarrinhoDeTransporte.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/CarrinhoDeTransporte.cpp.i
-.PHONY : CarrinhoDeTransporte.cpp.i
+codigo/CarrinhoDeTransporte.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/CarrinhoDeTransporte.cpp.i
+.PHONY : codigo/CarrinhoDeTransporte.cpp.i
 
-CarrinhoDeTransporte.s: CarrinhoDeTransporte.cpp.s
-.PHONY : CarrinhoDeTransporte.s
+codigo/CarrinhoDeTransporte.s: codigo/CarrinhoDeTransporte.cpp.s
+.PHONY : codigo/CarrinhoDeTransporte.s
 
 # target to generate assembly for a file
-CarrinhoDeTransporte.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/CarrinhoDeTransporte.cpp.s
-.PHONY : CarrinhoDeTransporte.cpp.s
+codigo/CarrinhoDeTransporte.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/CarrinhoDeTransporte.cpp.s
+.PHONY : codigo/CarrinhoDeTransporte.cpp.s
 
-Passageiros.obj: Passageiros.cpp.obj
-.PHONY : Passageiros.obj
+codigo/Passageiros.obj: codigo/Passageiros.cpp.obj
+.PHONY : codigo/Passageiros.obj
 
 # target to build an object file
-Passageiros.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Passageiros.cpp.obj
-.PHONY : Passageiros.cpp.obj
+codigo/Passageiros.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Passageiros.cpp.obj
+.PHONY : codigo/Passageiros.cpp.obj
 
-Passageiros.i: Passageiros.cpp.i
-.PHONY : Passageiros.i
+codigo/Passageiros.i: codigo/Passageiros.cpp.i
+.PHONY : codigo/Passageiros.i
 
 # target to preprocess a source file
-Passageiros.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Passageiros.cpp.i
-.PHONY : Passageiros.cpp.i
+codigo/Passageiros.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Passageiros.cpp.i
+.PHONY : codigo/Passageiros.cpp.i
 
-Passageiros.s: Passageiros.cpp.s
-.PHONY : Passageiros.s
+codigo/Passageiros.s: codigo/Passageiros.cpp.s
+.PHONY : codigo/Passageiros.s
 
 # target to generate assembly for a file
-Passageiros.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Passageiros.cpp.s
-.PHONY : Passageiros.cpp.s
+codigo/Passageiros.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Passageiros.cpp.s
+.PHONY : codigo/Passageiros.cpp.s
 
-Servicos.obj: Servicos.cpp.obj
-.PHONY : Servicos.obj
+codigo/Servicos.obj: codigo/Servicos.cpp.obj
+.PHONY : codigo/Servicos.obj
 
 # target to build an object file
-Servicos.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Servicos.cpp.obj
-.PHONY : Servicos.cpp.obj
+codigo/Servicos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Servicos.cpp.obj
+.PHONY : codigo/Servicos.cpp.obj
 
-Servicos.i: Servicos.cpp.i
-.PHONY : Servicos.i
+codigo/Servicos.i: codigo/Servicos.cpp.i
+.PHONY : codigo/Servicos.i
 
 # target to preprocess a source file
-Servicos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Servicos.cpp.i
-.PHONY : Servicos.cpp.i
+codigo/Servicos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Servicos.cpp.i
+.PHONY : codigo/Servicos.cpp.i
 
-Servicos.s: Servicos.cpp.s
-.PHONY : Servicos.s
+codigo/Servicos.s: codigo/Servicos.cpp.s
+.PHONY : codigo/Servicos.s
 
 # target to generate assembly for a file
-Servicos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Servicos.cpp.s
-.PHONY : Servicos.cpp.s
+codigo/Servicos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Servicos.cpp.s
+.PHONY : codigo/Servicos.cpp.s
 
-TransporteTerrestre.obj: TransporteTerrestre.cpp.obj
-.PHONY : TransporteTerrestre.obj
+codigo/TransporteTerrestre.obj: codigo/TransporteTerrestre.cpp.obj
+.PHONY : codigo/TransporteTerrestre.obj
 
 # target to build an object file
-TransporteTerrestre.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/TransporteTerrestre.cpp.obj
-.PHONY : TransporteTerrestre.cpp.obj
+codigo/TransporteTerrestre.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/TransporteTerrestre.cpp.obj
+.PHONY : codigo/TransporteTerrestre.cpp.obj
 
-TransporteTerrestre.i: TransporteTerrestre.cpp.i
-.PHONY : TransporteTerrestre.i
+codigo/TransporteTerrestre.i: codigo/TransporteTerrestre.cpp.i
+.PHONY : codigo/TransporteTerrestre.i
 
 # target to preprocess a source file
-TransporteTerrestre.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/TransporteTerrestre.cpp.i
-.PHONY : TransporteTerrestre.cpp.i
+codigo/TransporteTerrestre.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/TransporteTerrestre.cpp.i
+.PHONY : codigo/TransporteTerrestre.cpp.i
 
-TransporteTerrestre.s: TransporteTerrestre.cpp.s
-.PHONY : TransporteTerrestre.s
+codigo/TransporteTerrestre.s: codigo/TransporteTerrestre.cpp.s
+.PHONY : codigo/TransporteTerrestre.s
 
 # target to generate assembly for a file
-TransporteTerrestre.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/TransporteTerrestre.cpp.s
-.PHONY : TransporteTerrestre.cpp.s
+codigo/TransporteTerrestre.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/TransporteTerrestre.cpp.s
+.PHONY : codigo/TransporteTerrestre.cpp.s
 
-Voos.obj: Voos.cpp.obj
-.PHONY : Voos.obj
+codigo/Voos.obj: codigo/Voos.cpp.obj
+.PHONY : codigo/Voos.obj
 
 # target to build an object file
-Voos.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Voos.cpp.obj
-.PHONY : Voos.cpp.obj
+codigo/Voos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Voos.cpp.obj
+.PHONY : codigo/Voos.cpp.obj
 
-Voos.i: Voos.cpp.i
-.PHONY : Voos.i
+codigo/Voos.i: codigo/Voos.cpp.i
+.PHONY : codigo/Voos.i
 
 # target to preprocess a source file
-Voos.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Voos.cpp.i
-.PHONY : Voos.cpp.i
+codigo/Voos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Voos.cpp.i
+.PHONY : codigo/Voos.cpp.i
 
-Voos.s: Voos.cpp.s
-.PHONY : Voos.s
+codigo/Voos.s: codigo/Voos.cpp.s
+.PHONY : codigo/Voos.s
 
 # target to generate assembly for a file
-Voos.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/Voos.cpp.s
-.PHONY : Voos.cpp.s
+codigo/Voos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/Voos.cpp.s
+.PHONY : codigo/Voos.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+codigo/main.obj: codigo/main.cpp.obj
+.PHONY : codigo/main.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+codigo/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/main.cpp.obj
+.PHONY : codigo/main.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+codigo/main.i: codigo/main.cpp.i
+.PHONY : codigo/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/main.cpp.i
-.PHONY : main.cpp.i
+codigo/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/main.cpp.i
+.PHONY : codigo/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+codigo/main.s: codigo/main.cpp.s
+.PHONY : codigo/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/main.cpp.s
-.PHONY : main.cpp.s
+codigo/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/codigo/main.cpp.s
+.PHONY : codigo/main.cpp.s
 
 # Help Target
 help:
@@ -365,35 +352,34 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Doxygen
 	@echo ... CompanhiaAeria
-	@echo ... Aeroporto.obj
-	@echo ... Aeroporto.i
-	@echo ... Aeroporto.s
-	@echo ... Avioes.obj
-	@echo ... Avioes.i
-	@echo ... Avioes.s
-	@echo ... Bagagem.obj
-	@echo ... Bagagem.i
-	@echo ... Bagagem.s
-	@echo ... CarrinhoDeTransporte.obj
-	@echo ... CarrinhoDeTransporte.i
-	@echo ... CarrinhoDeTransporte.s
-	@echo ... Passageiros.obj
-	@echo ... Passageiros.i
-	@echo ... Passageiros.s
-	@echo ... Servicos.obj
-	@echo ... Servicos.i
-	@echo ... Servicos.s
-	@echo ... TransporteTerrestre.obj
-	@echo ... TransporteTerrestre.i
-	@echo ... TransporteTerrestre.s
-	@echo ... Voos.obj
-	@echo ... Voos.i
-	@echo ... Voos.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... codigo/Aeroporto.obj
+	@echo ... codigo/Aeroporto.i
+	@echo ... codigo/Aeroporto.s
+	@echo ... codigo/Avioes.obj
+	@echo ... codigo/Avioes.i
+	@echo ... codigo/Avioes.s
+	@echo ... codigo/Bagagem.obj
+	@echo ... codigo/Bagagem.i
+	@echo ... codigo/Bagagem.s
+	@echo ... codigo/CarrinhoDeTransporte.obj
+	@echo ... codigo/CarrinhoDeTransporte.i
+	@echo ... codigo/CarrinhoDeTransporte.s
+	@echo ... codigo/Passageiros.obj
+	@echo ... codigo/Passageiros.i
+	@echo ... codigo/Passageiros.s
+	@echo ... codigo/Servicos.obj
+	@echo ... codigo/Servicos.i
+	@echo ... codigo/Servicos.s
+	@echo ... codigo/TransporteTerrestre.obj
+	@echo ... codigo/TransporteTerrestre.i
+	@echo ... codigo/TransporteTerrestre.s
+	@echo ... codigo/Voos.obj
+	@echo ... codigo/Voos.i
+	@echo ... codigo/Voos.s
+	@echo ... codigo/main.obj
+	@echo ... codigo/main.i
+	@echo ... codigo/main.s
 .PHONY : help
 
 

@@ -22,9 +22,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/Compiler/GNU.cmake"
-  "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/FindDoxygen.cmake"
-  "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/FindPackageHandleStandardArgs.cmake"
-  "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/FindPackageMessage.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2021.2.3/bin/cmake/win/share/cmake-3.20/Modules/Platform/Windows-GNU-CXX-ABI.cmake"
@@ -39,7 +36,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeSystem.cmake"
-  "../docs/Doxyfile"
   )
 
 # The corresponding makefile is:
@@ -50,12 +46,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "Doxyfile"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/CompanhiaAeria.dir/DependInfo.cmake"
-  "CMakeFiles/Doxygen.dir/DependInfo.cmake"
   )
