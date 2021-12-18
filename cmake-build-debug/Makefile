@@ -128,6 +128,19 @@ CompanhiaAeria/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompanhiaAeria.dir\build.make CMakeFiles/CompanhiaAeria.dir/build
 .PHONY : CompanhiaAeria/fast
 
+#=============================================================================
+# Target rules for targets named Doxygen
+
+# Build rule for target.
+Doxygen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Doxygen
+.PHONY : Doxygen
+
+# fast build rule for target.
+Doxygen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Doxygen.dir\build.make CMakeFiles/Doxygen.dir/build
+.PHONY : Doxygen/fast
+
 Aeroporto.obj: Aeroporto.cpp.obj
 .PHONY : Aeroporto.obj
 
@@ -352,6 +365,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Doxygen
 	@echo ... CompanhiaAeria
 	@echo ... Aeroporto.obj
 	@echo ... Aeroporto.i
