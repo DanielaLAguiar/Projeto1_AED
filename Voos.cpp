@@ -1,7 +1,7 @@
 #include "Voos.h"
 
-Voos::Voos(unsigned int numero, string data, unsigned int duracao, Aeroporto o, Aeroporto d, Avioes av):
-numeroDeVoo(numero), dataDePartida(data), duracaoDoVoo(duracao), origem(o), destino(d), aviao(av) {}
+Voos::Voos(unsigned int numero, string data, unsigned int duracao, unsigned int cap, CarrinhoDeTransporte carro):
+numeroDeVoo(numero), dataDePartida(data), duracaoDoVoo(duracao), capacidade(cap), carrinho(carro) {}
 
 bool Voos::operator==(Voos &voo2) {
     if(numeroDeVoo==voo2.numeroDeVoo)
@@ -14,7 +14,7 @@ vector<Passageiros> Voos::getPassageiros() {
 }
 
 bool Voos::adicionarPassageiro(Passageiros passageiro) {
-    if(passageiros.size()>=aviao.capacidade)
+    if(passageiros.size()>=capacidade)
         return false;
     passageiros.push_back(passageiro);
     return true;
@@ -29,15 +29,12 @@ void Voos::comprarBilhete(int nBilhetes, bool bagagem) {
 }
 
 //Por enquanto o check in é sempre automático
-void Voos::checkIn() {
+void Voos::checkIn(Bagagem bagagem) {
     for(int i=0; i<passageiros.size(); i++) {
         if(passageiros[i].getBagagem()) {
-            carrinho.adicionarBagagem();
+            carrinho.adicionarBagagem(bagagem);
         }
     }
 }
 
 vooLotadoException::vooLotadoException(unsigned int n): numero(n) {}
-
-
-

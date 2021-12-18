@@ -3,14 +3,16 @@
 #include "Bagagem.h"
 #include <stack>
 #include <list>
+#include <queue>
 using namespace std;
 
 
 class CarrinhoDeTransporte {
-    list<list<stack<Bagagem>>> carruagens;
+    deque<stack<Bagagem>> carrinho;
+    int pilhas, malas;
 public:
-    CarrinhoDeTransporte();
-    void adicionarBagagem();
+    CarrinhoDeTransporte(int c, int n, int m);
+    void adicionarBagagem(Bagagem bagagem);
 };
 
 

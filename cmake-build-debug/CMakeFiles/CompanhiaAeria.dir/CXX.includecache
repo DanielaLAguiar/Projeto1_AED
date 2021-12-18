@@ -1,0 +1,62 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Aeroporto.h
+Avioes.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Avioes.h
+string
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Avioes.h
+Voos.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Voos.h
+Servicos.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Servicos.h
+string
+-
+list
+-
+queue
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Bagagem.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/CarrinhoDeTransporte.h
+Bagagem.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Bagagem.h
+stack
+-
+list
+-
+queue
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Passageiros.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Servicos.h
+string
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Voos.h
+Passageiros.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Passageiros.h
+CarrinhoDeTransporte.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/CarrinhoDeTransporte.h
+string
+-
+vector
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/main.cpp
+iostream
+-
+fstream
+-
+Aeroporto.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/Aeroporto.h
+
