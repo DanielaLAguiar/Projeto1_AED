@@ -6,7 +6,7 @@ using namespace std;
 int main() {
     string dados;
     list<Aeroporto> aeroportos;
-    ifstream DadosCompanhia("ficheiro.txt");
+    ifstream DadosCompanhia("../codigo/ficheiro.txt");
     if (!DadosCompanhia.is_open())
         cout << "Falha ao abrir o ficheiro.\n";
     while (getline (DadosCompanhia, dados)) {
