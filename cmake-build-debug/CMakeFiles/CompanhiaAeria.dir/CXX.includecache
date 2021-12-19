@@ -6,11 +6,19 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Aeroporto.cpp
+Aeroporto.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Aeroporto.h
+
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Aeroporto.h
 Avioes.h
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.h
 string
 -
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.cpp
+Avioes.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.h
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.h
 Voos.h
@@ -24,7 +32,15 @@ list
 queue
 -
 
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Bagagem.cpp
+Bagagem.h
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Bagagem.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Bagagem.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/CarrinhoDeTransporte.cpp
+CarrinhoDeTransporte.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/CarrinhoDeTransporte.h
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/CarrinhoDeTransporte.h
 Bagagem.h
@@ -36,11 +52,33 @@ list
 queue
 -
 
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.cpp
+Passageiros.h
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.cpp
+Servicos.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.h
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.h
 string
 -
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/TransporteTerrestre.cpp
+TransporteTerrestre.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/TransporteTerrestre.h
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/TransporteTerrestre.h
+string
+-
+list
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.cpp
+Voos.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.h
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.h
 Passageiros.h

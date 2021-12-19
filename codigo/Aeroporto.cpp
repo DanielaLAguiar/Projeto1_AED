@@ -26,10 +26,6 @@ vector<Avioes> Aeroporto::getAvioes() {
     return avioes;
 }
 
-void Aeroporto::setCidade(string cidade) {
-    this->cidade=cidade;
-}
-
 string Aeroporto::getCidade() {
     return cidade;
 }

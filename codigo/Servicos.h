@@ -10,6 +10,11 @@ class Servicos {
     string funcionarioResponsavel;
 public:
     Servicos(string tipo, string dt, string func);
+    /**
+    * @param tipo Indica se o serviço é para limpeza ou para manutenção.
+    * @param dt Data marcada para a realização do serviço.
+    * @param func Indica qual o funcionário responsável pelo serviço.
+    */
 };
 
 
