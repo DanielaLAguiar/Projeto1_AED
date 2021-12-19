@@ -104,6 +104,14 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">mat</td><td>Matricula do avião. </td></tr>
+    <tr><td class="paramname">tp</td><td>Tipo de avião. </td></tr>
+    <tr><td class="paramname">cap</td><td>Capacidade total do avião. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -123,7 +131,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Retorna a fila de serviços designados para o avião. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">servico</td><td>Adiciona um serviço à fila de servicos. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -142,7 +155,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Retorna o plano de voos do avião. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">voo</td><td>Adiciona um voo ao plano de voos do avião. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -160,12 +178,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">servicos</td><td>Remove o voo do plano de voos do avião. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Retorna a fila de serviços designados para o avião. </dd></dl>
 
 </div>
 </div>
@@ -183,12 +196,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">planoDeVoo</td><td>Adiciona todos os voos em que o avião irá participar. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Retorna o plano de voos do avião. </dd></dl>
 
 </div>
 </div>
@@ -207,14 +215,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mat</td><td>Matricula do avião. </td></tr>
-    <tr><td class="paramname">tp</td><td>Tipo de avião. </td></tr>
-    <tr><td class="paramname">cap</td><td>Capacidade total do avião. </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section return"><dt>Returns</dt><dd>Verificamos se dois aviões são iguais através da sua matricula. </dd></dl>
 
 </div>
 </div>
@@ -235,7 +236,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">voo</td><td>Adiciona um voo ao plano de voos do avião. </td></tr>
+    <tr><td class="paramname">voo</td><td>Remove o voo do plano de voos do avião. </td></tr>
   </table>
   </dd>
 </dl>
@@ -259,7 +260,7 @@ Public Member Functions</h2></td></tr>
 </div><div class="memdoc">
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">voo</td><td>Remove o voo do plano de voos do avião. </td></tr>
+    <tr><td class="paramname">servicos</td><td>Remove o voo do plano de voos do avião. </td></tr>
   </table>
   </dd>
 </dl>
@@ -281,7 +282,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="section return"><dt>Returns</dt><dd>Verificamos se dois aviões são iguais através da sua matricula. </dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">planoDeVoo</td><td>Adiciona todos os voos em que o avião irá participar. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -299,12 +305,7 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">servico</td><td>Adiciona um serviço à fila de servicos. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p >Retira o serviço da fila de serviços e coloca-o na lista de serviços completados. </p>
 
 </div>
 </div>

@@ -5,10 +5,10 @@
 class Bagagem {
     bool automatico;
 public:
-    Bagagem(bool aut);
     /**
     * @param aut Indica se o check-in é automático ou não.
     */
+    Bagagem(bool aut);
 };
 
 

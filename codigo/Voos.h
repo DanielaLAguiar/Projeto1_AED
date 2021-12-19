@@ -15,7 +15,6 @@ class Voos {
     CarrinhoDeTransporte carrinho;
     unsigned int capacidade;
 public:
-    Voos(unsigned int numero, string data, unsigned int duracao, unsigned int cap, CarrinhoDeTransporte carro);
     /**
     * @param numero Número identificador do voo.
     * @param data Data do voo.
@@ -23,23 +22,24 @@ public:
     * @param cap Capacidade total do voo.
     * @param carro Carrinho de transporte alocado ao voo.
     */
-    bool operator==(Voos &voo2);
+    Voos(unsigned int numero, string data, unsigned int duracao, unsigned int cap, CarrinhoDeTransporte carro);
     /**
     * @return Verificamos se dois voos são iguais através do seu número.
     */
-    vector<Passageiros> getPassageiros();
+    bool operator==(Voos &voo2);
     /**
     * @return Retorna todos os passageiros que compraram bilhete para o voo.
     */
-    bool adicionarPassageiro(Passageiros passageiro);
+    vector<Passageiros> getPassageiros();
     /**
     * @param passageiro Adiciona um passageiro ao voo.
     */
-    void comprarBilhete(int nBilhetes, bool bagagem);
+    bool adicionarPassageiro(Passageiros passageiro);
     /**
     * @param nBilhetes Número de bilhetes que o passageiro quer comprar.
     * @param bagagem Indica se o passageiro deseja levar bagagem ou não.
     */
+    void comprarBilhete(int nBilhetes, bool bagagem);
     void checkIn(Bagagem bagagem);
 };
 

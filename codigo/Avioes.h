@@ -16,48 +16,48 @@ class Avioes {
     queue<Servicos> servicos;
     list<Servicos> servicosJaRealizados;
 public:
-    Avioes(string mat, string tp, unsigned int cap);
     /**
     * @param mat Matricula do avião.
     * @param tp Tipo de avião.
     * @param cap Capacidade total do avião.
     */
-    bool operator==(Avioes &aviao2);
+    Avioes(string mat, string tp, unsigned int cap);
     /**
     * @return Verificamos se dois aviões são iguais através da sua matricula.
     */
-    void setVoos(list<Voos> planoDeVoo);
+    bool operator==(Avioes &aviao2);
     /**
     * @param planoDeVoo Adiciona todos os voos em que o avião irá participar.
     */
-    list<Voos> getVoos();
+    void setVoos(list<Voos> planoDeVoo);
     /**
     * @return Retorna o plano de voos do avião.
     */
-    void adicionarVoo(Voos voo);
+    list<Voos> getVoos();
     /**
     * @param voo Adiciona um voo ao plano de voos do avião.
     */
-    bool removerVoo(Voos voo);
+    void adicionarVoo(Voos voo);
     /**
     * @param voo Remove o voo do plano de voos do avião.
     */
-    void setServicos(queue<Servicos> servicos);
+    bool removerVoo(Voos voo);
     /**
     * @param servicos Remove o voo do plano de voos do avião.
     */
-    queue<Servicos> getServicos();
+    void setServicos(queue<Servicos> servicos);
     /**
     * @return Retorna a fila de serviços designados para o avião.
     */
-    void adicionarServico(Servicos servico);
+    queue<Servicos> getServicos();
     /**
     * @param servico Adiciona um serviço à fila de servicos.
     */
-    void terminarServico();
+    void adicionarServico(Servicos servico);
     /**
     * Retira o serviço da fila de serviços e coloca-o na lista de serviços completados.
     */
+    void terminarServico();
 };
 
 
