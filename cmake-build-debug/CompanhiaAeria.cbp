@@ -128,6 +128,9 @@
 		<Unit filename="C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.h">
 			<Option target="CompanhiaAeria"/>
 		</Unit>
+		<Unit filename="C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/bst.h">
+			<Option target="CompanhiaAeria"/>
+		</Unit>
 		<Unit filename="C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/main.cpp">
 			<Option target="CompanhiaAeria"/>
 		</Unit>

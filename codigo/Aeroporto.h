@@ -1,6 +1,8 @@
 #ifndef COMPANHIAAERIA_AEROPORTO_H
 #define COMPANHIAAERIA_AEROPORTO_H
 #include "Avioes.h"
+#include "TransporteTerrestre.h"
+#include "bst.h"
 #include <string>
 
 using namespace std;
@@ -9,7 +11,7 @@ using namespace std;
 class Aeroporto {
     string cidade;
     vector<Avioes> avioes;
-    //BST<TransporteTerrestre> transportes;
+    BST<TransporteTerrestre> transportes;
 public:
     /**
     * @param cd Cidade onde o aeroporto se situa.
@@ -35,6 +37,15 @@ public:
     * @return Retorna a cidade em que o aeroporto se situa.
     */
     string getCidade();
+    /**
+    * @return Retorna todos os transportes terrestres nas proximidades do aeroporto.
+    */
+    BST<TransporteTerrestre> getTransportes() const;
+
+    /**
+    * @param vetorTransportes Agrupa todos os transportes terrestres nas proximidades do aeroporto.
+    */
+    void setTransportes(vector<TransporteTerrestre> &vetorTransportes);
 };
 
 

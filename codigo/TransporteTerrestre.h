@@ -2,10 +2,12 @@
 #define COMPANHIAAERIA_TRANSPORTETERRESTRE_H
 #include<string>
 #include<list>
+#include <system_error>
+
 using namespace std;
 
 
-class TransporteTerrestre {
+class TransporteTerrestre : public error_code {
     string tipoDeTransporte;
     unsigned int distanciaAoAeroporto;
     list<string> horario;
@@ -16,6 +18,9 @@ public:
     * @param hora Horário do transporte.
     */
     TransporteTerrestre(string tipo, unsigned int distancia, list<string> hora);
+    bool operator<(const TransporteTerrestre& rhs) const;
+    bool operator>(const TransporteTerrestre& rhs) const;
+    bool operator==(const TransporteTerrestre& rhs) const;
 };
 
 

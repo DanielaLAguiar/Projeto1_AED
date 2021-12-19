@@ -1,6 +1,6 @@
 #include "Aeroporto.h"
 
-Aeroporto::Aeroporto(string cd): cidade(cd) {}
+Aeroporto::Aeroporto(string cd): cidade(cd), transportes(TransporteTerrestre("",0,list<string>())) {}
 
 void Aeroporto::adicionarAviao(Avioes aviao) {
     avioes.push_back(aviao);
@@ -30,3 +30,12 @@ string Aeroporto::getCidade() {
     return cidade;
 }
 
+BST<TransporteTerrestre> Aeroporto::getTransportes() const {
+    return transportes;
+}
+
+void Aeroporto::setTransportes(vector<TransporteTerrestre> &vetorTransportes) {
+    for(int i=0; i<vetorTransportes.size();i++) {
+        transportes.insert(vetorTransportes[i]);
+    }
+}

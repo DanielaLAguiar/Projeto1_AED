@@ -9,7 +9,9 @@ CMakeFiles/CompanhiaAeria.dir/codigo/Aeroporto.cpp.obj: \
  ../codigo/CarrinhoDeTransporte.h \
  ../codigo/Passageiros.h \
  ../codigo/Servicos.h \
- ../codigo/Voos.h
+ ../codigo/TransporteTerrestre.h \
+ ../codigo/Voos.h \
+ ../codigo/bst.h
 CMakeFiles/CompanhiaAeria.dir/codigo/Avioes.cpp.obj: \
  ../codigo/Avioes.cpp \
  ../codigo/Avioes.h \
@@ -47,5 +49,7 @@ CMakeFiles/CompanhiaAeria.dir/codigo/main.cpp.obj: \
  ../codigo/CarrinhoDeTransporte.h \
  ../codigo/Passageiros.h \
  ../codigo/Servicos.h \
+ ../codigo/TransporteTerrestre.h \
  ../codigo/Voos.h \
+ ../codigo/bst.h \
  ../codigo/main.cpp

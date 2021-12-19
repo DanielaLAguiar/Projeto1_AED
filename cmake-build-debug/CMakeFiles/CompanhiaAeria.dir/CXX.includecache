@@ -13,6 +13,10 @@ C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Aeroporto.h
 Avioes.h
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.h
+TransporteTerrestre.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/TransporteTerrestre.h
+bst.h
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/bst.h
 string
 -
 
@@ -32,10 +36,6 @@ list
 queue
 -
 
-C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Bagagem.cpp
-Bagagem.h
-C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Bagagem.h
-
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Bagagem.h
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/CarrinhoDeTransporte.cpp
@@ -52,15 +52,7 @@ list
 queue
 -
 
-C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.cpp
-Passageiros.h
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.h
-
-C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.h
-
-C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.cpp
-Servicos.h
-C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.h
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.h
 string
@@ -75,6 +67,8 @@ string
 -
 list
 -
+system_error
+-
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.cpp
 Voos.h
@@ -88,6 +82,14 @@ C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo
 string
 -
 vector
+-
+
+C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/bst.h
+iostream
+-
+stack
+-
+queue
 -
 
 C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/main.cpp

@@ -9,7 +9,9 @@ CMakeFiles/CompanhiaAeria.dir/codigo/Aeroporto.cpp.obj
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/CarrinhoDeTransporte.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.h
+ C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/TransporteTerrestre.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.h
+ C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/bst.h
 CMakeFiles/CompanhiaAeria.dir/codigo/Avioes.cpp.obj
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.cpp
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Avioes.h
@@ -47,5 +49,7 @@ CMakeFiles/CompanhiaAeria.dir/codigo/main.cpp.obj
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/CarrinhoDeTransporte.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Passageiros.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Servicos.h
+ C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/TransporteTerrestre.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/Voos.h
+ C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/bst.h
  C:/Users/danie/OneDrive/Ambiente de Trabalho/Docs/LEIC/AED/CompanhiaAeria/codigo/main.cpp
