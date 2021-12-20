@@ -41,11 +41,18 @@ public:
     * @return Retorna todos os transportes terrestres nas proximidades do aeroporto.
     */
     BST<TransporteTerrestre> getTransportes() const;
-
     /**
     * @param vetorTransportes Agrupa todos os transportes terrestres nas proximidades do aeroporto.
     */
     void setTransportes(vector<TransporteTerrestre> &vetorTransportes);
+    /**
+    * @return Se o transporte existir na lista, o seu horário é alterado (true), caso contrário, o transporte é adicionado à lista (false).
+    */
+    bool updateHorario(TransporteTerrestre transporte);
+    /**
+    * @return Se o transporte existir na lista, é eliminado (true), caso contrário, retorna false.
+    */
+    bool removeTransporte(TransporteTerrestre transporte);
 };
 
 

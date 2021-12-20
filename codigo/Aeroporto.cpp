@@ -39,3 +39,29 @@ void Aeroporto::setTransportes(vector<TransporteTerrestre> &vetorTransportes) {
         transportes.insert(vetorTransportes[i]);
     }
 }
+
+bool Aeroporto::updateHorario(TransporteTerrestre transporte) {
+    iteratorBST<TransporteTerrestre> it = transportes.begin();
+    while(it != transportes.end()){
+        if((*it).getDistancia() == transporte.getDistancia() && (*it).getTipo()==transporte.getTipo()){
+            (*it).setHorario(transporte.getHorario());
+            return true;
+        }
+        else it++;
+    }
+    transportes.insert(transporte);
+    return false;
+}
+
+bool Aeroporto::removeTransporte(TransporteTerrestre transporte) {
+    iteratorBST<TransporteTerrestre> it = transportes.begin();
+    while(it != transportes.end()){
+        if((*it)==transporte){
+            transportes.remove(*it);
+            return true;
+        }
+        else it++;
+    }
+    return false;
+}
+

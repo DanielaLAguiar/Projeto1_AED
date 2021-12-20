@@ -21,6 +21,10 @@ public:
     * @param bagagem É adicionada ao carrinho de tranporte a bagagem de determinado passageiro.
     */
     void adicionarBagagem(Bagagem bagagem);
+    /**
+    * Vamos retirar a última mala que foi colocada na primeira pilha.
+    */
+    void retirarBagagem();
 };
 
 

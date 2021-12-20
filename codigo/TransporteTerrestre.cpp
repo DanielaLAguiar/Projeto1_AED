@@ -14,3 +14,19 @@ bool TransporteTerrestre::operator>(const TransporteTerrestre& rhs) const {
 bool TransporteTerrestre::operator==(const TransporteTerrestre& rhs) const {
     return (this->distanciaAoAeroporto == rhs.distanciaAoAeroporto);
 }
+
+list<string> TransporteTerrestre::getHorario() {
+    return horario;
+}
+
+void TransporteTerrestre::setHorario(list<string> horario) {
+    this->horario=horario;
+}
+
+unsigned int TransporteTerrestre::getDistancia() {
+    return distanciaAoAeroporto;
+}
+
+string TransporteTerrestre::getTipo() {
+    return tipoDeTransporte;
+}

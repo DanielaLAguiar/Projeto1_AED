@@ -12,4 +12,8 @@ void CarrinhoDeTransporte::adicionarBagagem(Bagagem bagagem) {
     }
 }
 
+void CarrinhoDeTransporte::retirarBagagem() {
+    carrinho.front().pop();
+}
+
 

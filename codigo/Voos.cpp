@@ -20,18 +20,17 @@ bool Voos::adicionarPassageiro(Passageiros passageiro) {
     return true;
 }
 
-void Voos::comprarBilhete(int nBilhetes, bool bagagem) {
-    Passageiros passageiro(nBilhetes, bagagem);
+void Voos::comprarBilhete(int nBilhetes, bool bagagem, bool checkIn) {
+    Passageiros passageiro(nBilhetes, bagagem, checkIn);
     for(int i=0; i<nBilhetes; i++) {
         if(!adicionarPassageiro(passageiro))
             throw vooLotadoException(numeroDeVoo);
     }
 }
 
-//Por enquanto o check in é sempre automático
 void Voos::checkIn(Bagagem bagagem) {
     for(int i=0; i<passageiros.size(); i++) {
-        if(passageiros[i].getBagagem()) {
+        if(passageiros[i].getBagagem() && passageiros[i].getCheckIn()) {
             carrinho.adicionarBagagem(bagagem);
         }
     }

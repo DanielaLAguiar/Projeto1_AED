@@ -21,6 +21,22 @@ public:
     bool operator<(const TransporteTerrestre& rhs) const;
     bool operator>(const TransporteTerrestre& rhs) const;
     bool operator==(const TransporteTerrestre& rhs) const;
+    /**
+    * @return Retorna o horário do transporte.
+    */
+    list<string> getHorario();
+    /**
+    * @param horario Indica o horário do transporte.
+    */
+    void setHorario(list<string> horario);
+    /**
+    * @return Retorna a distância do transporte ao aeroporto.
+    */
+    unsigned int getDistancia();
+    /**
+    * @return Retorna o tipo de transporte: autocarro, metro, ou comboio.
+    */
+    string getTipo();
 };
 
 

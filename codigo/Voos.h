@@ -39,7 +39,10 @@ public:
     * @param nBilhetes Número de bilhetes que o passageiro quer comprar.
     * @param bagagem Indica se o passageiro deseja levar bagagem ou não.
     */
-    void comprarBilhete(int nBilhetes, bool bagagem);
+    void comprarBilhete(int nBilhetes, bool bagagem, bool checkIn);
+    /**
+    * Verifica se o passageiro deseja check in automático, caso em que a sua bagagem é adicionada ao carrinho de transporte.
+    */
     void checkIn(Bagagem bagagem);
 };
 
