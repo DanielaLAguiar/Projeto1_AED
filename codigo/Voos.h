@@ -44,6 +44,12 @@ public:
     * Verifica se o passageiro deseja check in automático, caso em que a sua bagagem é adicionada ao carrinho de transporte.
     */
     void checkIn(Bagagem bagagem);
+
+    void getNumVoo();
+    void getDataPartida();
+    void getDuracao();
+    void printPassageiros();
+    void printCapacidade();
 };
 
 class vooLotadoException {
