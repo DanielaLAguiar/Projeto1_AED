@@ -36,4 +36,24 @@ void Voos::checkIn(Bagagem bagagem) {
     }
 }
 
+void Voos::getNumVoo(){
+    cout << this.numeroDeVoo;
+};
+
+void Voos::getDuracao(){
+    cout << this.duracaoDoVoo;
+};
+
+void Voos::getDataPartida() {
+    cout << this.dataDePartida;
+}
+
+void Voos::printCapacidade() {
+    cout << this.capacidade;
+}
+
+void Voos::printPassageiros() {
+    cout << "N.º de Passageiros: " << this.passageiros.size();
+}
+
 vooLotadoException::vooLotadoException(unsigned int n): numero(n) {}
