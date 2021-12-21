@@ -48,11 +48,31 @@ $(function() {
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="_transporte_terrestre_8h_source.html">TransporteTerrestre.h</a>&gt;</code></p>
+<div class="dynheader">
+Inheritance diagram for TransporteTerrestre:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="class_transporte_terrestre.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a12457ce46d742617c172b971c44bdbb5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a12457ce46d742617c172b971c44bdbb5">TransporteTerrestre</a> (string tipo, unsigned int distancia, list&lt; string &gt; hora)</td></tr>
 <tr class="separator:a12457ce46d742617c172b971c44bdbb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a910624533aa21635d75ca7219f7add1d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a910624533aa21635d75ca7219f7add1d">operator&lt;</a> (const <a class="el" href="class_transporte_terrestre.html">TransporteTerrestre</a> &amp;rhs) const</td></tr>
+<tr class="separator:a910624533aa21635d75ca7219f7add1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a560788e55d4d881daf5e4d86f7e6bcb4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a560788e55d4d881daf5e4d86f7e6bcb4">operator&gt;</a> (const <a class="el" href="class_transporte_terrestre.html">TransporteTerrestre</a> &amp;rhs) const</td></tr>
+<tr class="separator:a560788e55d4d881daf5e4d86f7e6bcb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cd944acab2d06e89fb1831471303074"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a1cd944acab2d06e89fb1831471303074">operator==</a> (const <a class="el" href="class_transporte_terrestre.html">TransporteTerrestre</a> &amp;rhs) const</td></tr>
+<tr class="separator:a1cd944acab2d06e89fb1831471303074"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ca31bb505b2135681cb19e97d6c53d8"><td class="memItemLeft" align="right" valign="top">list&lt; string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a5ca31bb505b2135681cb19e97d6c53d8">getHorario</a> ()</td></tr>
+<tr class="separator:a5ca31bb505b2135681cb19e97d6c53d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c143d0e6287699c48fb753abef723a8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a0c143d0e6287699c48fb753abef723a8">setHorario</a> (list&lt; string &gt; horario)</td></tr>
+<tr class="separator:a0c143d0e6287699c48fb753abef723a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfcfd55a2d93cfcd6452629aa3ca0c63"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#abfcfd55a2d93cfcd6452629aa3ca0c63">getDistancia</a> ()</td></tr>
+<tr class="separator:abfcfd55a2d93cfcd6452629aa3ca0c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81183da951c1f04c19ca77297dd8c40d"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transporte_terrestre.html#a81183da951c1f04c19ca77297dd8c40d">getTipo</a> ()</td></tr>
+<tr class="separator:a81183da951c1f04c19ca77297dd8c40d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a12457ce46d742617c172b971c44bdbb5" name="a12457ce46d742617c172b971c44bdbb5"></a>
@@ -91,6 +111,139 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">tipo</td><td>Indica se o transporte em questão é autocarro, metro, ou comboio. </td></tr>
     <tr><td class="paramname">distancia</td><td>Distância do transporte ao aeroporto. </td></tr>
     <tr><td class="paramname">hora</td><td>Horário do transporte. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="abfcfd55a2d93cfcd6452629aa3ca0c63" name="abfcfd55a2d93cfcd6452629aa3ca0c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfcfd55a2d93cfcd6452629aa3ca0c63">&#9670;&nbsp;</a></span>getDistancia()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int TransporteTerrestre::getDistancia </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Retorna a distância do transporte ao aeroporto. </dd></dl>
+
+</div>
+</div>
+<a id="a5ca31bb505b2135681cb19e97d6c53d8" name="a5ca31bb505b2135681cb19e97d6c53d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ca31bb505b2135681cb19e97d6c53d8">&#9670;&nbsp;</a></span>getHorario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">list&lt; string &gt; TransporteTerrestre::getHorario </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Retorna o horário do transporte. </dd></dl>
+
+</div>
+</div>
+<a id="a81183da951c1f04c19ca77297dd8c40d" name="a81183da951c1f04c19ca77297dd8c40d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81183da951c1f04c19ca77297dd8c40d">&#9670;&nbsp;</a></span>getTipo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">string TransporteTerrestre::getTipo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section return"><dt>Returns</dt><dd>Retorna o tipo de transporte: autocarro, metro, ou comboio. </dd></dl>
+
+</div>
+</div>
+<a id="a910624533aa21635d75ca7219f7add1d" name="a910624533aa21635d75ca7219f7add1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a910624533aa21635d75ca7219f7add1d">&#9670;&nbsp;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TransporteTerrestre::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_transporte_terrestre.html">TransporteTerrestre</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1cd944acab2d06e89fb1831471303074" name="a1cd944acab2d06e89fb1831471303074"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cd944acab2d06e89fb1831471303074">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TransporteTerrestre::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_transporte_terrestre.html">TransporteTerrestre</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a560788e55d4d881daf5e4d86f7e6bcb4" name="a560788e55d4d881daf5e4d86f7e6bcb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a560788e55d4d881daf5e4d86f7e6bcb4">&#9670;&nbsp;</a></span>operator&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TransporteTerrestre::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="class_transporte_terrestre.html">TransporteTerrestre</a> &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0c143d0e6287699c48fb753abef723a8" name="a0c143d0e6287699c48fb753abef723a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c143d0e6287699c48fb753abef723a8">&#9670;&nbsp;</a></span>setHorario()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TransporteTerrestre::setHorario </td>
+          <td>(</td>
+          <td class="paramtype">list&lt; string &gt;&#160;</td>
+          <td class="paramname"><em>horario</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">horario</td><td>Indica o horário do transporte. </td></tr>
   </table>
   </dd>
 </dl>

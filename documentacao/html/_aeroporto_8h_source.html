@@ -50,35 +50,49 @@ $(function() {
 <a href="_aeroporto_8h.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef COMPANHIAAERIA_AEROPORTO_H</span></div>
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define COMPANHIAAERIA_AEROPORTO_H</span></div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &quot;<a class="code" href="_avioes_8h.html">Avioes.h</a>&quot;</span></div>
-<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &lt;string&gt;</span></div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span> </div>
-<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="preprocessor">#include &quot;<a class="code" href="_transporte_terrestre_8h.html">TransporteTerrestre.h</a>&quot;</span></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="preprocessor">#include &quot;<a class="code" href="bst_8h.html">bst.h</a>&quot;</span></div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="preprocessor">#include &lt;string&gt;</span></div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="class_aeroporto.html">    9</a></span><span class="keyword">class </span><a class="code hl_class" href="class_aeroporto.html">Aeroporto</a> {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span>    <span class="keywordtype">string</span> cidade;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno">   11</span>    vector&lt;Avioes&gt; avioes;</div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="comment">//BST&lt;TransporteTerrestre&gt; transportes;</span></div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>    <a class="code hl_function" href="class_aeroporto.html#ae31286c6e2a99288ec99d318d2d8da46">Aeroporto</a>(<span class="keywordtype">string</span> cd);</div>
-<div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_aeroporto.html#abd81abe03083c0324e5e56c7fddebefb">adicionarAviao</a>(<a class="code hl_class" href="class_avioes.html">Avioes</a> aviao);</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_aeroporto.html#a163ad18311391cf8aa149fa03699fb30">removerAviao</a>(<a class="code hl_class" href="class_avioes.html">Avioes</a> aviao);</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_aeroporto.html#a84978c99d04c38d9fc5093eb599526c5">setAvioes</a>(vector&lt;Avioes&gt; avioes);</div>
-<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>    vector&lt;Avioes&gt; <a class="code hl_function" href="class_aeroporto.html#afb43ac7501ec03bcdd238161a1d1c6c5">getAvioes</a>();</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_aeroporto.html#a22ad15d3dfbf70b6d5398b081da25e20">getCidade</a>();</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>};</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span> </div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span> </div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="preprocessor">#endif </span><span class="comment">//COMPANHIAAERIA_AEROPORTO_H</span></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span><span class="keyword">using namespace </span>std;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span> </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="class_aeroporto.html">   11</a></span><span class="keyword">class </span><a class="code hl_class" href="class_aeroporto.html">Aeroporto</a> {</div>
+<div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    <span class="keywordtype">string</span> cidade;</div>
+<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    vector&lt;Avioes&gt; avioes;</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_class" href="class_b_s_t.html">BST&lt;TransporteTerrestre&gt;</a> transportes;</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>    <a class="code hl_function" href="class_aeroporto.html#ae31286c6e2a99288ec99d318d2d8da46">Aeroporto</a>(<span class="keywordtype">string</span> cd);</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_aeroporto.html#abd81abe03083c0324e5e56c7fddebefb">adicionarAviao</a>(<a class="code hl_class" href="class_avioes.html">Avioes</a> aviao);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_aeroporto.html#a163ad18311391cf8aa149fa03699fb30">removerAviao</a>(<a class="code hl_class" href="class_avioes.html">Avioes</a> aviao);</div>
+<div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_aeroporto.html#a84978c99d04c38d9fc5093eb599526c5">setAvioes</a>(vector&lt;Avioes&gt; avioes);</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    vector&lt;Avioes&gt; <a class="code hl_function" href="class_aeroporto.html#afb43ac7501ec03bcdd238161a1d1c6c5">getAvioes</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>    <span class="keywordtype">string</span> <a class="code hl_function" href="class_aeroporto.html#a22ad15d3dfbf70b6d5398b081da25e20">getCidade</a>();</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>    <a class="code hl_class" href="class_b_s_t.html">BST&lt;TransporteTerrestre&gt;</a> <a class="code hl_function" href="class_aeroporto.html#aaa0095c9adf30c3c0afc54be91c89504">getTransportes</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    <span class="keywordtype">void</span> <a class="code hl_function" href="class_aeroporto.html#ae138be633c0f52ce483dc8bd23b36d37">setTransportes</a>(vector&lt;TransporteTerrestre&gt; &amp;vetorTransportes);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_aeroporto.html#a04e08f6e7be57fba30a428fee03637b7">updateHorario</a>(<a class="code hl_class" href="class_transporte_terrestre.html">TransporteTerrestre</a> transporte);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="class_aeroporto.html#acfac32e9c300c9b641d3c523140d89b2">removeTransporte</a>(<a class="code hl_class" href="class_transporte_terrestre.html">TransporteTerrestre</a> transporte);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>};</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span> </div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span><span class="preprocessor">#endif </span><span class="comment">//COMPANHIAAERIA_AEROPORTO_H</span></div>
 <div class="ttc" id="a_avioes_8h_html"><div class="ttname"><a href="_avioes_8h.html">Avioes.h</a></div></div>
-<div class="ttc" id="aclass_aeroporto_html"><div class="ttname"><a href="class_aeroporto.html">Aeroporto</a></div><div class="ttdef"><b>Definition:</b> Aeroporto.h:9</div></div>
+<div class="ttc" id="a_transporte_terrestre_8h_html"><div class="ttname"><a href="_transporte_terrestre_8h.html">TransporteTerrestre.h</a></div></div>
+<div class="ttc" id="abst_8h_html"><div class="ttname"><a href="bst_8h.html">bst.h</a></div></div>
+<div class="ttc" id="aclass_aeroporto_html"><div class="ttname"><a href="class_aeroporto.html">Aeroporto</a></div><div class="ttdef"><b>Definition:</b> Aeroporto.h:11</div></div>
+<div class="ttc" id="aclass_aeroporto_html_a04e08f6e7be57fba30a428fee03637b7"><div class="ttname"><a href="class_aeroporto.html#a04e08f6e7be57fba30a428fee03637b7">Aeroporto::updateHorario</a></div><div class="ttdeci">bool updateHorario(TransporteTerrestre transporte)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:43</div></div>
 <div class="ttc" id="aclass_aeroporto_html_a163ad18311391cf8aa149fa03699fb30"><div class="ttname"><a href="class_aeroporto.html#a163ad18311391cf8aa149fa03699fb30">Aeroporto::removerAviao</a></div><div class="ttdeci">bool removerAviao(Avioes aviao)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:9</div></div>
 <div class="ttc" id="aclass_aeroporto_html_a22ad15d3dfbf70b6d5398b081da25e20"><div class="ttname"><a href="class_aeroporto.html#a22ad15d3dfbf70b6d5398b081da25e20">Aeroporto::getCidade</a></div><div class="ttdeci">string getCidade()</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:29</div></div>
 <div class="ttc" id="aclass_aeroporto_html_a84978c99d04c38d9fc5093eb599526c5"><div class="ttname"><a href="class_aeroporto.html#a84978c99d04c38d9fc5093eb599526c5">Aeroporto::setAvioes</a></div><div class="ttdeci">void setAvioes(vector&lt; Avioes &gt; avioes)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:21</div></div>
+<div class="ttc" id="aclass_aeroporto_html_aaa0095c9adf30c3c0afc54be91c89504"><div class="ttname"><a href="class_aeroporto.html#aaa0095c9adf30c3c0afc54be91c89504">Aeroporto::getTransportes</a></div><div class="ttdeci">BST&lt; TransporteTerrestre &gt; getTransportes() const</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:33</div></div>
 <div class="ttc" id="aclass_aeroporto_html_abd81abe03083c0324e5e56c7fddebefb"><div class="ttname"><a href="class_aeroporto.html#abd81abe03083c0324e5e56c7fddebefb">Aeroporto::adicionarAviao</a></div><div class="ttdeci">void adicionarAviao(Avioes aviao)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:5</div></div>
+<div class="ttc" id="aclass_aeroporto_html_acfac32e9c300c9b641d3c523140d89b2"><div class="ttname"><a href="class_aeroporto.html#acfac32e9c300c9b641d3c523140d89b2">Aeroporto::removeTransporte</a></div><div class="ttdeci">bool removeTransporte(TransporteTerrestre transporte)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:56</div></div>
+<div class="ttc" id="aclass_aeroporto_html_ae138be633c0f52ce483dc8bd23b36d37"><div class="ttname"><a href="class_aeroporto.html#ae138be633c0f52ce483dc8bd23b36d37">Aeroporto::setTransportes</a></div><div class="ttdeci">void setTransportes(vector&lt; TransporteTerrestre &gt; &amp;vetorTransportes)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:37</div></div>
 <div class="ttc" id="aclass_aeroporto_html_ae31286c6e2a99288ec99d318d2d8da46"><div class="ttname"><a href="class_aeroporto.html#ae31286c6e2a99288ec99d318d2d8da46">Aeroporto::Aeroporto</a></div><div class="ttdeci">Aeroporto(string cd)</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:3</div></div>
 <div class="ttc" id="aclass_aeroporto_html_afb43ac7501ec03bcdd238161a1d1c6c5"><div class="ttname"><a href="class_aeroporto.html#afb43ac7501ec03bcdd238161a1d1c6c5">Aeroporto::getAvioes</a></div><div class="ttdeci">vector&lt; Avioes &gt; getAvioes()</div><div class="ttdef"><b>Definition:</b> Aeroporto.cpp:25</div></div>
 <div class="ttc" id="aclass_avioes_html"><div class="ttname"><a href="class_avioes.html">Avioes</a></div><div class="ttdef"><b>Definition:</b> Avioes.h:11</div></div>
+<div class="ttc" id="aclass_b_s_t_html"><div class="ttname"><a href="class_b_s_t.html">BST</a></div><div class="ttdef"><b>Definition:</b> bst.h:31</div></div>
+<div class="ttc" id="aclass_transporte_terrestre_html"><div class="ttname"><a href="class_transporte_terrestre.html">TransporteTerrestre</a></div><div class="ttdef"><b>Definition:</b> TransporteTerrestre.h:10</div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

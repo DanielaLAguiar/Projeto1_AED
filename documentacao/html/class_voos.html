@@ -59,8 +59,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:acceac5dbf810d08d5d73f837881bd765"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7aeba80f45ae27c91270a212b2370ad"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voos.html#ad7aeba80f45ae27c91270a212b2370ad">adicionarPassageiro</a> (<a class="el" href="class_passageiros.html">Passageiros</a> passageiro)</td></tr>
 <tr class="separator:ad7aeba80f45ae27c91270a212b2370ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d3df386b875d7823d38dba5a4b590af"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voos.html#a3d3df386b875d7823d38dba5a4b590af">comprarBilhete</a> (int nBilhetes, bool bagagem)</td></tr>
-<tr class="separator:a3d3df386b875d7823d38dba5a4b590af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d76775753e4a590c7315075309a876"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voos.html#a03d76775753e4a590c7315075309a876">comprarBilhete</a> (int nBilhetes, bool bagagem, bool <a class="el" href="class_voos.html#adf8860245dfa7ee97edbdaf86653c8f0">checkIn</a>)</td></tr>
+<tr class="separator:a03d76775753e4a590c7315075309a876"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf8860245dfa7ee97edbdaf86653c8f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_voos.html#adf8860245dfa7ee97edbdaf86653c8f0">checkIn</a> (<a class="el" href="class_bagagem.html">Bagagem</a> bagagem)</td></tr>
 <tr class="separator:adf8860245dfa7ee97edbdaf86653c8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -161,11 +161,12 @@ Public Member Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<p >Verifica se o passageiro deseja check in automático, caso em que a sua bagagem é adicionada ao carrinho de transporte. </p>
 
 </div>
 </div>
-<a id="a3d3df386b875d7823d38dba5a4b590af" name="a3d3df386b875d7823d38dba5a4b590af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d3df386b875d7823d38dba5a4b590af">&#9670;&nbsp;</a></span>comprarBilhete()</h2>
+<a id="a03d76775753e4a590c7315075309a876" name="a03d76775753e4a590c7315075309a876"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d76775753e4a590c7315075309a876">&#9670;&nbsp;</a></span>comprarBilhete()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,7 +181,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>bagagem</em>&#160;</td>
+          <td class="paramname"><em>bagagem</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>checkIn</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
